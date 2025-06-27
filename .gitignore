@@ -1,3 +1,17 @@
+# Node.js
 node_modules/
-package-lock.json
-yarn.lock
+.env
+.DS_Store
+npm-debug.log*
+
+# Expo
+.expo/
+.expo-shared/
+
+# VSCode local settings
+.vscode/settings.json
+
+# Otros
+*.log
+.idea/
+*.swp
