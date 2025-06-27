@@ -8,5 +8,10 @@ app.use(express.json());
 
 app.use('/speech', speechRoutes);
 
+
+app.get('/', (req, res) => {
+  res.send('✅ Servidor activo.');
+});
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
